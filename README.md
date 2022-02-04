@@ -4,4 +4,8 @@
 
 Front end for [this specific ImageMagick use-case](https://kana.ph/imagemagick-organize-invoice-and-receipt/).
 
-***TODO:** Build as runnable JAR using maven!*
+Build command:
+```shell
+$ ./gradlew jlink
+```
+Executable file will be made at: `$PROJECT_DIR/build/image/bin/app`
